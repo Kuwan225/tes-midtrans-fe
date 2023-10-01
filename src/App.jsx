@@ -7,7 +7,7 @@ const App = () => {
   return (
       <Routes>
         <Route path="/topup/:nama/:id/:harga" element={<TopUp />} />
-        <Route path="/history" element={<History />} />
+        <Route path="/" element={<History />} />
         <Route path="*" element={<h1>Error</h1>} />
       </Routes>
   );
